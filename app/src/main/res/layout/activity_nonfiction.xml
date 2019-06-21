@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nonfiction">
+
+    <ImageButton
+        android:id="@+id/nfic2"
+        android:layout_width="162dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="183dp"
+        app:srcCompat="@drawable/b7" />
+
+    <ImageButton
+        android:id="@+id/nfic1"
+        android:layout_width="162dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/ni" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="187dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text=" Name:Night
+ Author:Elie wiesel"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="186dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="  Name:1776
+        Author:David McCullough"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="63dp"
+        android:layout_height="79dp"
+        android:layout_alignBaseline="@+id/t5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp" />
+
+    <ImageButton
+        android:id="@+id/nfic3"
+        android:layout_width="164dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@drawable/diary" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="194dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text=" Name:The Diary  of a Young Girl
+  Author:Anne Frank"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="71dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginBottom="262dp" />
+
+
+</RelativeLayout>
